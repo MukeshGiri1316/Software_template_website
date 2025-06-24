@@ -44,19 +44,19 @@ const homesecondary = () => {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-0 col-span-1 md:col-span-2 mt-5 text-base sm:text-lg md:text-xl lg:text-3xl">
                     <div className="flex flex-col items-center px-2 md:px-5 lg:px-8 py-8 md:py-10 lg:py-15 capitalize">
                         <div className="relative font-bold text-primaryText before:w-[60px] before:md:w-[80px] before:h-[60px] before:md:h-[80px] before:bg-secondary/20 before:absolute before:top-0 before:left-0 before:rounded-full">15+</div>
-                        <span className="mt-2 text-[11px] sm:text-base lg:text-xl font-semibold text-secondaryText">Years Experience</span>
+                        <span className="mt-2 text-sm sm:text-base lg:text-xl font-semibold text-primary">Years Experience</span>
                     </div>
                     <div className="flex flex-col items-center px-2 md:px-5 lg:px-8 py-8 md:py-10 lg:py-15 capitalize">
                         <span className="relative font-bold text-primaryText before:w-[60px] before:md:w-[80px] before:h-[60px] before:md:h-[80px] before:bg-secondary/20 before:absolute before:top-0 before:left-0 before:rounded-full">20k+</span>
-                        <span className="mt-2 text-[11px] sm:text-base lg:text-xl font-semibold text-primary">Happy Clients</span>
+                        <span className="mt-2 text-sm sm:text-base lg:text-xl font-semibold text-primary">Happy Clients</span>
                     </div>
                     <div className="flex flex-col items-center px-2 md:px-5 lg:px-8 py-8 md:py-10 lg:py-15 capitalize">
                         <span className="relative font-bold text-primaryText before:w-[60px] before:md:w-[80px] before:h-[60px] before:md:h-[80px] before:bg-secondary/20 before:absolute before:top-0 before:left-0 before:rounded-full">15+</span>
-                        <span className="mt-2 text-[11px] sm:text-base lg:text-xl font-semibold text-primary">Awards Wins</span>
+                        <span className="mt-2 text-sm sm:text-base lg:text-xl font-semibold text-primary">Awards Wins</span>
                     </div>
                     <div className="flex flex-col items-center md:px-5 lg:px-8 py-8 md:py-10 lg:py-15 capitalize">
                         <span className="relative font-bold text-primaryText before:w-[60px] before:md:w-[80px] before:h-[60px] before:md:h-[80px] before:bg-secondary/20 before:absolute before:top-0 before:left-0 before:rounded-full">4.5</span>
-                        <span className="mt-2 text-[11px] sm:text-base lg:text-xl font-semibold text-primary">Client Rating</span>
+                        <span className="mt-2 text-sm sm:text-base lg:text-xl font-semibold text-primary">Client Rating</span>
                     </div>
                 </div>
             </div>

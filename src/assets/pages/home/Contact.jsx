@@ -33,14 +33,14 @@ function Evolution() {
                         <img src="/images/whatsapp.png" alt="" className='w-[30px]' />
                         <img src="/images/facebook.png" alt="" className='w-[30px]' />
                     </div>
-                    <div className='flex flex-col space-y-5 text-[11px] sm:text-sm md:text-base'>
-                        <div className='min-w-[200px] md:min-w-[300px] w-[50%] py-2 px-4 flex justify-start space-x-4 items-center bg-gray-200 text-slate-800 rounded-lg'>
+                    <div className='flex flex-col space-y-5 text-base'>
+                        <div className='min-w-[280px] md:min-w-[300px] w-[50%] py-2 px-4 flex justify-start space-x-4 items-center bg-gray-200 text-slate-800 rounded-lg'>
                             <span>Call us now: </span>
                             <span>
                                 9876543210
                             </span>
                         </div>
-                        <div className='min-w-[200px] md:min-w-[300px] w-[50%] py-2 px-4 flex justify-start space-x-4 items-center bg-gray-200 text-slate-800 rounded-lg'>
+                        <div className='min-w-[280px] md:min-w-[300px] w-[50%] py-2 px-4 flex justify-start space-x-4 items-center bg-gray-200 text-slate-800 rounded-lg'>
                             <span>Send mail on: </span>
                             <span>
                                 example.com
@@ -63,8 +63,8 @@ function Evolution() {
                         </select>
                         <textarea onChange={handleChange} rows='10' name='message' placeholder='Write something...' className='md:h-auto col-span-1 lg:col-span-2 bg-white px-4 py-2 outline-none text-black'></textarea>
                         <div className='flex space-x-5'>
-                            <button type='submit' className='w-fit border duration-200 cursor-pointer hover:bg-gray-800 hover:text-white py-2 px-6 md:px-8 text-primaryText text-[10px] sm:text-sm md:text-lg rounded-xl mt-5 font-semibold tracking-wider'>Submit</button>
-                            <button type='reset' className='w-fit border duration-200 cursor-pointer hover:bg-gray-800 hover:text-white py-2 px-6 md:px-8 text-primaryText text-[10px] sm:text-sm md:text-lg rounded-xl mt-5 font-semibold tracking-wider'>reset</button>
+                            <button type='submit' className='w-fit border duration-200 cursor-pointer hover:bg-gray-800 hover:text-white py-2 px-6 md:px-8 text-primaryText text-sm md:text-lg rounded-lg mt-5 font-semibold tracking-wider'>Submit</button>
+                            <button type='reset' className='w-fit border duration-200 cursor-pointer hover:bg-gray-800 hover:text-white py-2 px-6 md:px-8 text-primaryText text-sm md:text-lg rounded-lg mt-5 font-semibold tracking-wider'>reset</button>
                         </div>
                     </form>
                 </div>

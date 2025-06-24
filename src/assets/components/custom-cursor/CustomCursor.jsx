@@ -56,7 +56,7 @@ function CustomCursor({ variant }) {
         <motion.div
             variants={variants}
             animate={cursorVariants}
-            className='w-[35px] h-[35px] rounded-full border-2 border-primary fixed top-0 left-0 z-40 pointer-events-none'
+            className='w-[35px] h-[35px] rounded-full border-2 border-primary hidden lg:block fixed top-0 left-0 z-100 pointer-events-none'
         />
     )
 }
