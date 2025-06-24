@@ -44,11 +44,11 @@ const Footer = () => {
 
                     <div className="mt-8 pt-8 border-t-2 border-gray-300 ">
                         <div className="flex flex-col md:flex-row justify-between items-center">
-                            <p className="text-primaryText text-sm font-bold">
+                            <p className="text-primaryText text-[10px] md:text-sm font-bold">
                                 Copyright © 2025 Company
                             </p>
 
-                            <p className="text-primaryText text-sm mt-4 md:mt-0 font-bold">
+                            <p className="text-primaryText text-[10px] md:text-sm mt-4 md:mt-0 font-bold">
                                 Powered by MG
                             </p>
                         </div>

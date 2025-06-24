@@ -18,6 +18,12 @@
   margin: auto;
 }
 
+@media (width <= 768px){
+  .container{
+    width: 95vw;
+  }
+}
+
 .animated-bg{
   overflow: hidden;
 }
